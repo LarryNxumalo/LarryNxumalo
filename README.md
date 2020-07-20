@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+- ⚡ Fun fact: I love Vue.js
+
+- 🌱 I’m currently learning Laravel and React
+
 <!--
 **LarryNxumalo/LarryNxumalo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
