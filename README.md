@@ -1,20 +1,18 @@
 ### Hi there 👋
 
-- ⚡ Fun fact: I love Vue.js
+import vue from 'vue'
+import react from 'react'
+import express from 'express'
+import mongoose from 'mongoose'
+import Vuetify from 'vuetify'
+import materialud from '@material-ui/core'
+const axios = require('axios')
 
-- 🌱 I’m currently learning Laravel and React
+module.exports = function (api) {
+ api.loadSource(async actions => {
+    const { data } = await axios.get('http://localhost:1337/events/')
 
-<!--
-**LarryNxumalo/LarryNxumalo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    const collection = actions.addCollection({ // Object - array of objects or table - in GraphQL
+      typeName: 'Event'
+    })
+ }
