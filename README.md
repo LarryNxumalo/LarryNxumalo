@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-import vue from 'vue'
-import react from 'react'
+-import vue from 'vue'
+=import react from 'react'
 import express from 'express'
 import mongoose from 'mongoose'
 import Vuetify from 'vuetify'
