@@ -1,6 +1,6 @@
 ### Hi there 👋
 
 
-    const collection = actions.addCollection({ // Object - array of objects or table - in GraphQL
+    const collection = actions.addCollection({
       typeName: 'LarryNxumalo'
     })
