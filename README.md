@@ -1,8 +1,8 @@
 
     DEV_NAME=Larry_Nxumalo
     DEV_QAUL=Self_Taught
-    DEV_DEBUG=true
-    DEV_URL=
+    DEV_GITHUB=true
+    DEV_URL=https://larrynxumalo.com
 
     LOG_CHANNEL=stack
 
