@@ -21,6 +21,8 @@
     ALSO_USES=AWS
     ALSO_USES=STRAPI
     ALSO_USES=HEROKU
+    
+    ALWAYS READ THE DOCS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::✨✨Done in 23ms.
     
     🧶 yarn love
